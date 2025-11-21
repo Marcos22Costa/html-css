@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML-5</title>
+</head>
+<body>
+    <h1>Inserção de Imagens e Áudio</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)"srcset="imagens/1-p.png" type="image/png">
+        <source media="(max-width: 1050px)"srcset="imagens/2-m.png" type="image/png">
+        <img src="imagens/3-g.png" alt="imagens flexiveis"><br>
+    </picture>
+    <audio src="audio/forever-jeremyk.mp3"controls></audio><br>
+    <audio src="audio/hope-cumbia.mp3"controls></audio><br>
+    <audio src="audio/racing-trains-casa-rosa.mp3"controls></audio><br>
+    <audio src="audio/summer-somewhere.mp3"controls></audio><br>
+    <!--Ou então use o sistema abaixo para inserir som no site-->
+    <audio preload="metadata"controls loop>
+        <source src="audio/hope-cumbia.mp3" type="">
+    </audio>
+</body>
+    
+</html>
