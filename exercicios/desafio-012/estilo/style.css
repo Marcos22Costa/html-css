@@ -45,7 +45,7 @@ header > p{
     text-decoration: none;
     font-weight: bolder;
 }
-header a:hover, footer a {
+header a:hover{
 
      text-decoration: underline;
 } 
@@ -55,9 +55,11 @@ footer a{
     color: white;
     text-decoration: none;
     font-weight: bolder;
-
 }
 
+footer  a:hover {
+    text-decoration: underline;
+}
 
 section{
     padding-top: 10vh;
@@ -83,7 +85,7 @@ section.imagem{
     background-size: cover;
     background-attachment: fixed;
 }
-section.imagem >p{
+section.imagem >p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.514);
