@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Grande</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 600px;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: darkgray;
+
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela com Vários dados</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <tr>
+            <th><strong>Grupo</strong></th>
+            <th><strong>Nomes</strong></th>
+            <th colspan="3"><strong>Filmes</strong></th>
+        </tr>
+        <tr>
+            <td rowspan="5"><strong>Mulheres</strong></td>
+            <td>Ana Maria Santos</td>
+            <td>Alien</td>
+            <td>Rambo</td>
+            <td>Vingadores</td>
+        </tr>
+        <tr>
+            <td>Beatriz Souza</td>
+            <td>Hulk</td>
+            <td>Inception</td>
+            <td>Batman</td>
+        </tr>
+        <tr>
+            <td>Cláudia Melo</td>
+            <td>Oblivion</td>
+            <td>Matrix</td>
+            <td>Gladiador</td>
+        </tr>
+        <tr>
+            <td>Maria Aparecida</td>
+            <td>Linda Mulher</td>
+            <td>Força de Mulher</td>
+            <td>Titanic</td>
+        </tr>
+        <tr>
+            <td>Evelin</td>
+            <td>Séries</td>
+            <td>Matrix</td>
+            <td>Hobit</td>
+        </tr>
+        <tr>
+            <td rowspan="8"><strong>Homens</strong></td>
+            <td>Bruno Mendonça</td>
+            <td>Intocáveis</td>
+            <td>Amnésia</td>
+            <td>Gladiador</td>
+        </tr>
+        <tr>
+            <td>Daniel Lourenço</td>
+            <td>Wall-E</td>
+            <td>OldBoy</td>
+            <td>Dangal</td>
+        </tr>
+        <tr>
+            <td>Faviano Mota</td>
+            <td>Star Wars-5</td>
+            <td>Taxi Driver</td>
+            <td>Toy Store</td>
+        </tr>
+        <tr>
+            <td>Lucas Souza</td>
+            <td>Mr.Been</td>
+            <td>Hora do Espanto</td>
+            <td>Tubarão</td>
+        </tr>
+        <tr>
+            <td>Thiago Costa</td>
+            <td>300 sparta</td>
+            <td>tarzan</td>
+            <td>Holocausto</td>
+        </tr>
+        <tr>
+            <td>Marcos Ferreira</td>
+            <td>30 Segundos</td>
+            <td>Chicago PD</td>
+            <td>O Especialista</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
