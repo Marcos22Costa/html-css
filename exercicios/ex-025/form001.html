@@ -13,12 +13,22 @@
 <body>
     <h1>Meu Primeiro Formulário</h1>
 
-    <form action="Cadastro.php" autocomplete="off">
+    <form action="Cadastro.php" method="post" autocomplete="off">
+
         <p><label for="iNome">Nome</label>: 
             <input type="text" name="Nome" id="iNome"></p>
-        <p><label for="iSobrenome">Sobrenome</label>: 
+
+        <p><label for="iSobrenome">Sobrenome</label> 
             <input type="text" name="Sobrenome" id="iSobrenome"></p>
+
+            <p><label for="iEndereço">Endereço</label>
+            <input type="text" name="Endereço" id="iEndereço"></p>
+
+            <p><label for="iCidade">Cidade</label>
+            <input type="text" name="Cidade" id="ICidade"></p>
+
         <p><input type="submit" value="ENVIAR"></p>
+
     </form>
     
 </body>
