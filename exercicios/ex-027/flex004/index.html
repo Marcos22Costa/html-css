@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.conteiner {
+            background-color:lightsalmon;
+            height: 300px;
+
+            display: flex;
+            flex-flow: nowrap;
+            /* se fosse "flex-flow: row-reverse nowrap" a apresentação seria a partir do final, ou seja da esquerda para a direita*/
+            justify-content: space-around;
+            /* -justify-content: flax-start coloca o item à direita já o
+               -justify-content: flex-end coloca o item à esquerda ou seja no final
+               -justify-content: center irá centralizar o item observando o espaçamento entre eles para os dois lados
+               -justify-content:betwenn fixa o primeiro item no star e o último no end e os demais são distribuídos igalmente
+               -justify-contente:evenly fará a distribuição dos itens observando espaços iguais entre eles
+               -justify-content: around faz a distribuição dos itens no conteiner observando espaços menores no start e no end e os demias são distribuidos conforme o espaço de forma igual*/
+            align-items: stretch;
+        }
+        div.item {
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+
+    </div>
+</body>
+</html>
